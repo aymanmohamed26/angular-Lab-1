@@ -1,11 +1,11 @@
 <div class="card">
- <!-- <img src="https://images.pexels.com/photos/5929944/pexels-photo-5929944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="..."> -->
-   <!-- <img src="{{productImage}}"> -->
-   <!-- <img src="assets/images/{{prodImg2}}"> -->
+
    <img [src]="countrytImage">
    <div class="card-body">
-      <h5 class="card-title">{{countryName}}</h5>
+      <h5 class="card-title" >{{countryName}}</h5>
       <p class="card-text">{{productDescription}}</p>
       <a href="#" class="btn btn-primary">Buy</a>
+      <input [(ngModel)]="name" placeholder="Enter your name">
+    <p>Your name: {{ name }}</p>
     </div>
   </div>

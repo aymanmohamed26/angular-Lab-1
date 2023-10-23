@@ -9,6 +9,7 @@ import { AsideComponent } from './component/aside/aside.component';
 import { ProductComponent } from './component/product/product.component';
 import { ProductCurdComponent } from './component/product-curd/product-curd.component';
 import { SlidesComponent } from './component/slides/slides.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { SlidesComponent } from './component/slides/slides.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
